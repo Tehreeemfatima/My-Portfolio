@@ -13,7 +13,7 @@ export default function MyHome() {
       <div className="max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full px-4 md:flex-row">
         <div className="flex flex-col justify-center h-full sm:mt-20">
           <h2 className="text-4xl sm:text-7xl font-bold text-white ">
-            <span className="text-cyan-500 ">I'm a</span> Front End{" "}
+            <span className="text-cyan-500 ">I am a</span> Front End
             <span className="text-cyan-500">Developer</span>
           </h2>
           <p className="text-gray-500 py-4 max-w-md">
