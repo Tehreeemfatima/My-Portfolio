@@ -7,54 +7,87 @@ import react from "@/app/assets/react.png";
 import tailwind from "@/app/assets/tailwind.png";
 import github from "@/app/assets/github.png";
 import graphql from "@/app/assets/graphql.png";
+import SPSS from "@/app/assets/SPSS.png";
+import R from "@/app/assets/R.png";
+import EXCEL from "@/app/assets/EXCEL.jpg";
+
 import Image from "next/image";
 
-export default function Experience() {
+export default function skills() {
   const techs = [
     {
+      id: 0,
+      src: SPSS,
+      title: "SPSS",
+      style: "shadow-blue-500",
+    },
+
+    {
       id: 1,
+      src: R,
+      title: "R",
+      style: "shadow-blue-500",
+    },
+      
+    {
+      id: 2,
+      src: EXCEL,
+      title: "EXCEL",
+      style: "shadow-green-100",
+    },
+
+
+  
+   
+   
+   {
+      id: 3,
       src: html,
       title: "HTML",
       style: "shadow-orange-500",
     },
     {
-      id: 2,
+      id: 4,
       src: css,
       title: "CSS",
       style: "shadow-blue-500",
     },
+
+    
+
     {
-      id: 3,
+      id: 5,
       src: javascript,
       title: "JavaScript",
       style: "shadow-yellow-500",
     },
     {
-      id: 4,
+      id: 6,
       src: react,
       title: "React",
       style: "shadow-blue-500",
     },
     {
-      id: 5,
+      id: 7,
       src: tailwind,
       title: "Tailwind",
       style: "shadow-sky-400",
     },
     {
-      id: 6,
+      id: 8,
       src: nextjs,
       title: "Next JS",
       style: "shadow-white",
     },
     {
-      id: 7,
-      src: graphql,
-      title: "Graphql",
-      style: "shadow-pink-400",
+      id: 9,
+      src: node,
+      title: "Node",
+      style: "shadow-gray-400",
     },
+    
     {
-      id: 8,
+      id: 10,
       src: github,
       title: "Git hub",
       style: "shadow-gray-400",
@@ -63,12 +96,12 @@ export default function Experience() {
   return (
     <div
       id="experience"
-      className="parent bg-gradient-to-b to-black from-gray-800 w-full h-screen  py-[600px]"
+      className="parent bg-gradient-to-b from-gray-700 to-gray-700 w-full h-screen  py-[400px]"
     >
       <div className="child max-w-screen-lg mx-auto p-4 flex flex-col justify-center w-full h-full text-white ">
         <div className="subchild">
           <p className="text-4xl font-bold border-b-4 border-gray-500 p-2 inline">
-            Experience
+            Skills
           </p>
           <p className="py-6">These are the technologies I have worked with</p>
         </div>

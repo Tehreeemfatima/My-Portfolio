@@ -11,7 +11,7 @@ export default function SocialLinks() {
           Linkedin <FaLinkedin size={30} />
         </>
       ),
-      href: "https://linkedin.com",
+      href: "https://www.linkedin.com/in/tehreem-fatima-b62301247/",
       style: "rounded-tr-md",
     },
     {
@@ -21,7 +21,7 @@ export default function SocialLinks() {
           Github <FaGithub size={30} />
         </>
       ),
-      href: "https://github.com/Daniyalamir",
+      href: "https://github.com/dashboard",
     },
     {
       id: 1,
@@ -30,7 +30,7 @@ export default function SocialLinks() {
           Mail <HiOutlineMail size={30} />
         </>
       ),
-      href: "mailto:foo@gmail.com",
+      href: "mailto:tfatimamalik@com ",
     },
     {
       id: 1,

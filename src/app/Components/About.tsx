@@ -2,7 +2,7 @@ export default function About() {
   return (
     <div
       id="about"
-      className="w-full h-screen bg-gradient-to-b from-gray-800 to-black text-white text-lg text-justify py-[550px] md:py-0"
+      className="w-full h-screen bg-gradient-to-b from-gray-700 to-gray-700 text-white text-lg text-justify py-[550px] md:py-0"
     >
       <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full ">
         <div className="pb-8 ">
@@ -12,25 +12,14 @@ export default function About() {
         </div>
 
         <p>
-          As a front-end developer, I specialize in creating visually stunning
-          and user-friendly websites using cutting-edge tools and technologies.
-          My core competencies include proficiency in Chakra UI, Tailwind CSS,
-          Next.js, React, as well as a strong command over JavaScript and
-          TypeScript. With an eye for detail and a passion for excellence, I
-          strive to deliver outstanding results that meet and exceed client
-          expectations.
+        A dedicated statistician immersing myself in the realm of web development. Embarking on a mission to infuse life into numbers on the web, I leverage HTML, CSS, TypeScript, Tailwind, React, and Next.js. Each project I undertake goes beyond mere website creation—it's an artful fusion of data and design. My objective is to not only make information accessible but also to render it visually compelling. Join me in this thrilling journey where the worlds of statistics and coding converge, crafting web experiences that are both user-friendly and captivating.
+
+
         </p>
         <br />
 
         <p>
-          Throughout my career, I have been involved in a variety of projects
-          ranging from small-scale website development to complex web
-          applications. My expertise in front-end technologies, combined with my
-          ability to think creatively and approach problems from different
-          angles, allows me to develop unique solutions that cater to the
-          specific needs of each client. With my skills and knowledge, I am
-          confident in my ability to create stunning, high-performance websites
-          that provide an unparalleled user experience.
+        Throughout my career, I've worked on various projects, from small websites to more complex web applications. My strength lies in using front-end technologies, and my creative thinking helps me find unique solutions for each client. I'm confident in my ability to create beautiful and high-performing websites that offer an excellent user experience.
         </p>
       </div>
     </div>

@@ -13,13 +13,13 @@ export default function NavBar() {
       id: 2,
       link: "about",
     },
-    {
-      id: 3,
-      link: "portfollio",
-    },
+    //  {
+    //   id: 3,
+    //   link: "portfolio",
+    // },
     {
       id: 4,
-      link: "experience",
+      link: "Skills",
     },
     {
       id: 5,
@@ -27,10 +27,10 @@ export default function NavBar() {
     },
   ];
   return (
-    <div className="flex justify-between items-center w-full h-20 text-white sticky px-4 bg-black">
+    <div className="flex justify-between items-center w-full h-20 text-white sticky px-4 bg-pink-800">
       {/* logo */}
       <div>
-        <h1 className="text-5xl font-signature ml-2"> Daniyal </h1>
+        <h1 className="text-5xl font-signature ml-2"> Tehreem Fatima </h1>
       </div>
       {/* home links */}
       <ul className=" hidden md:flex">
@@ -42,7 +42,7 @@ export default function NavBar() {
         {Links.map(({ id, link }) => (
           <li
             key={id}
-            className="px-4 cursor-pointer capitalize font-medium text-gray-500 hover:scale-105 duration-200 hover:text-cyan-500 "
+            className="px-4 cursor-pointer capitalize font-medium text-white hover:scale-105 duration-200 hover:text-pink-500 "
           >
             <Link to={link} smooth duration={500}>
               {link}
@@ -67,16 +67,18 @@ export default function NavBar() {
           {Links.map(({ id, link }) => (
             <li
               key={id}
-              className="px-4 cursor-pointer capitalize py-6 text-4xl hover:text-cyan-500"
+              className="px-4 cursor-pointer capitalize py-6 text-4xl hover:text-pink-800"
             >
               <Link
                 onClick={() => setNav(!nav)}
                 to={link}
-                smooth
+                smooth 
                 duration={500}
               >
                 {link}
               </Link>
+
+            
             </li>
           ))}
         </ul>

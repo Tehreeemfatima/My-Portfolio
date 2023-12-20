@@ -14,7 +14,7 @@ export default function Home() {
       <NavBar/>
       <MyHome/>
       <About/>
-      <Portfollio/>
+      {/* <Portfollio/> */}
       <Experience/>
       <Contact/>
                                                                                                    
