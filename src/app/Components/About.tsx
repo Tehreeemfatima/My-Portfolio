@@ -12,14 +12,14 @@ export default function About() {
         </div>
 
         <p>
-        A dedicated statistician immersing myself in the realm of web development. Embarking on a mission to infuse life into numbers on the web, I leverage HTML, CSS, TypeScript, Tailwind, React, and Next.js. Each project I undertake goes beyond mere website creation—it's an artful fusion of data and design. My objective is to not only make information accessible but also to render it visually compelling. Join me in this thrilling journey where the worlds of statistics and coding converge, crafting web experiences that are both user-friendly and captivating.
+        A dedicated statistician immersing myself in the realm of web development. Embarking on a mission to infuse life into numbers on the web, I leverage HTML, CSS, TypeScript, Tailwind, React, and Next.js. Each project I undertake goes beyond mere website creation—its an artful fusion of data and design. My objective is to not only make information accessible but also to render it visually compelling. Join me in this thrilling journey where the worlds of statistics and coding converge, crafting web experiences that are both user-friendly and captivating.
 
 
         </p>
         <br />
 
         <p>
-        Throughout my career, I've worked on various projects, from small websites to more complex web applications. My strength lies in using front-end technologies, and my creative thinking helps me find unique solutions for each client. I'm confident in my ability to create beautiful and high-performing websites that offer an excellent user experience.
+        Throughout my career, I have worked on various projects, from small websites to more complex web applications. My strength lies in using front-end technologies, and my creative thinking helps me find unique solutions for each client. I am confident in my ability to create beautiful and high performing websites that offer an excellent user experience.
         </p>
       </div>
     </div>

@@ -18,7 +18,7 @@ export default function MyHome() {
             <span className="text-pink-600"> Front </span> End Developer 
           </h1>
           <p className="text-white py-4 max-w-md">
-          As a front-end developer, I specialize in React, Next.js, and Tailwind CSS. These technologies are my focus for building engaging web applications. I'm enthusiastic about honing my skills and creating seamless user experiences in the world of web development.
+          As a front end developer, I specialize in React, Next.js, and Tailwind CSS. These technologies are my focus for building engaging web applications. I am enthusiastic about honing my skills and creating seamless user experiences in the world of web development.
           </p>
 
           <div>
